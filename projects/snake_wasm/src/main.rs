@@ -47,7 +47,7 @@ fn main() {
         );
     }
 
-    game_loop(snake, Rc::new(canvas), 200);
+    game_loop(snake, Rc::new(canvas), 100);
 
     stdweb::event_loop();
 }
